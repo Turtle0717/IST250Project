@@ -1,0 +1,178 @@
+/*
+All pages
+Converted px to ems using px/16.
+ */
+
+ * {
+   text-align: center;
+ }
+
+/* main styles */
+
+a:hover {
+  color: green;
+}
+
+body {
+  font-family: Helvetica;
+  text-align: center;
+  margin: 0;
+  background-color: #D3D3D3;
+}
+
+.main-header {
+  border: black solid 1px;
+  font-size: 2.1875em;
+  padding: 1em;
+  margin:0;
+  font-size: 3em;
+  background-color: #a3c1ad;
+}
+
+.nav-menu ul {
+  border: black solid 1px;
+  border-top: 0; /* Hides top border so there is no double line.*/
+  display: flex;
+  justify-content: space-between; /* Adds spacing inbetween nav li elements */
+  font-size: 1em;
+  padding: .25em;
+  background-color: #a3c1ad;
+  margin: 0 0 .75em 0;
+}
+
+.nav-menu ul li {
+  display: inline-block; /* Takes out the bullet points */
+  margin: 0.3125em;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: .75em;
+}
+
+.b-border {
+  border-bottom: 2px solid #a3c1ad;
+}
+
+/* Layout */
+
+.welcome {
+  padding: 0 1em 1em 1em;
+  font-size: 1.5em;
+  width: 46.5%;
+  margin: auto;
+}
+
+.description {
+  padding: 0 1em 1em 1em;
+  width: 46.5%;
+  margin: auto;
+  margin-top: 1em;
+}
+
+/* Main or index page */
+
+.index-image {
+  width: 12.5em;
+  border-radius: 6.25em;
+  margin: 1em auto;
+  display: block;
+  border: white solid 3px;
+}
+
+/** About Me page **/
+
+#psu-logo {
+  width: 40em;
+  margin: 1em auto;
+}
+
+#class-table, th, td {
+  width: 25em;
+  border: 1px solid black;
+  margin:auto;
+}
+
+/** Pictures page **/
+
+#tubby-picture,
+#bandit-picture {
+  width: 20em;
+  display: block;
+  margin-left: auto; /* Center aligns pictures */
+  margin-right: auto;
+}
+
+#tubby-picture:hover {
+  transform: scale(1.2) rotate(20deg);
+}
+
+#tubby-picture {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#bandit-picture {
+  transform: rotate(180deg); /* Image would appear upside down */
+}
+
+#tubby-picture:hover {
+  transform: scale(1.2) rotate(20deg);
+}
+
+/* Blog page */
+
+#blog-welcome {
+  margin-top: .5em;
+}
+
+.blog-date {
+  padding: 0 1em;
+  width: 46.5%;
+  margin: auto;
+  margin-top: 1em;
+}
+
+.blog-description {
+  padding: 0 1em 2em;
+  width: 46.5%;
+  margin: auto;
+}
+
+/* Contact page */
+
+form input{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-data {
+  margin: 1em 0;
+}
+
+#comment-box {
+  width: 1em;
+  padding: 10em;
+  margin-bottom: 1em;
+}
+
+/* Travel page */
+
+#visited {
+  float: left;
+  display: justify;
+  width: 46.5%;
+}
+
+#toVisit {
+  float: right;
+  display: justify;
+  width: 46.5%;
+}
+
+#locations li {
+  list-style-position: inside;
+}
